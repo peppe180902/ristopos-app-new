@@ -1,50 +1,77 @@
-# Welcome to your Expo app 👋
+<p align="center">
+  <img src="/api/placeholder/300/100" alt="RistoPos Logo" width="300"/>
+</p>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# RistoPos
 
-## Get started
+RistoPos è un'applicazione mobile per la gestione dei ristoranti, sviluppata con React Native ed Expo. L'app si integra con un plugin WordPress personalizzato per sfruttare le API di WordPress.
 
-1. Install dependencies
+## Stato del Progetto
 
-   ```bash
+Il progetto è attualmente in fase di implementazione. Le seguenti funzionalità sono in fase di sviluppo:
+
+- Creazione e gestione degli ordini
+- Gestione del personale
+- Analytics
+- Sistema di notifiche per ordini pronti e richieste dei clienti
+
+## Tecnologie Utilizzate
+
+- React Native
+- Expo
+- WordPress (per il backend e le API)
+
+## Funzionalità Principali
+
+### Gestione Ordini
+Permette ai ristoratori di creare e gestire gli ordini direttamente dall'app mobile.
+
+### Gestionale Staff
+Offre strumenti per la gestione efficiente del personale del ristorante.
+
+### Analytics
+Fornisce analisi dettagliate sulle performance del ristorante.
+
+### Sistema di Notifiche
+Invia notifiche in tempo reale quando gli ordini sono pronti o quando i clienti hanno richieste specifiche.
+
+## Installazione
+
+1. Clona il repository:
+   ```
+   git clone https://github.com/peppe180902/ristopos-app-new.git
+   ```
+2. Naviga nella directory del progetto:
+   ```
+   cd ristopos
+   ```
+3. Installa le dipendenze:
+   ```
    npm install
    ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
+4. Avvia l'app con Expo:
+   ```
+   expo start
    ```
 
-In the output, you'll find options to open the app in a
+Nota: Assicurati di avere Node.js, npm ed Expo CLI installati sul tuo sistema prima di procedere con l'installazione.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Contribuire
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Siamo sempre alla ricerca di contributi per migliorare RistoPos! Se desideri contribuire, segui questi passaggi:
 
-## Get a fresh project
+1. Fai un fork del repository
+2. Crea un branch per la tua feature (`git checkout -b feature/AmazingFeature`)
+3. Committa le tue modifiche (`git commit -m 'Add some AmazingFeature'`)
+4. Pusha il branch (`git push origin feature/AmazingFeature`)
+5. Apri una Pull Request
 
-When you're ready, run:
+## Licenza
 
-```bash
-npm run reset-project
-```
+Distribuito sotto la licenza MIT. Vedi `LICENSE` per maggiori informazioni.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Contatti
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Nome del Progetto: RistoPos
+Email: info@ristopos.com
+Link del Progetto: [https://github.com/tuousername/ristopos](https://github.com/tuousername/ristopos)
