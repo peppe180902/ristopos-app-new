@@ -1,7 +1,5 @@
 import { API_URL, CONSUMER_KEY, CONSUMER_SECRET } from '@/config';
 import axios from 'axios';
-import { getCredentials, getToken } from './auth';
-import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const apiPost = axios.create({
   baseURL: 'https://spa.giuseppenapoli.com/wp-json/wp/v2',
