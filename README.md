@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/api/placeholder/300/100" alt="RistoPos Logo" width="300"/>
+  <img src="/images/logo-ristopos-white.png" alt="RistoPos Logo" width="300"/>
 </p>
 
 # RistoPos
